@@ -1,0 +1,14 @@
+server:
+  port: 2222
+  
+
+
+#Configure this client with Eureka Server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:4444/eureka/
+
+#Configure Application name
+spring:  application:    name: Currency-Convert

@@ -1,0 +1,29 @@
+#Server Configurations
+
+server:
+  port: 1111
+
+
+#Connection properties
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ''
+    url: jdbc:h2:mem:testdb
+    username: sa
+  h2:
+    console:
+      enabled: true
+      settings:
+        trace: false
+        web-allow-others: true
+  application:
+    name: Currency-Exchange
+#configure this client with eureka server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:4444/eureka/
+
+

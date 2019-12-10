@@ -1,0 +1,4 @@
+
+we have to run this project using following url
+
+http://localhost:1111/findCurrencyFromAndTo/from/USD/to/INR
